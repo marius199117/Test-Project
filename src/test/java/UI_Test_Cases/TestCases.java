@@ -25,6 +25,9 @@ public class TestCases extends CommonDefinitions {
     @Test(priority = 1)
     public void testFlow() throws InterruptedException {
      bundlesPage.bundles();
+     // resultPage.result()
+        // -> this would be the assert that at least one result is
+        // displayed if no error message was displayed after selecting Find a deal
     }
 
     @AfterClass
