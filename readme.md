@@ -8,7 +8,7 @@ Testing Project to automate the testing project steps.
 - src/test/java/UI_Test_Cases -> test class where are tests are defined and can be run from here
 
 ## Usage
-If you want to run the tests, go to UI_Test_Cases/TestCases, right click and select run test
-If you want to run the algorithms tests, go to Algorithms_Tests/ and each of the 2 exercises from the 2 classes, right click and run
+- If you want to run the tests, go to UI_Test_Cases/TestCases, right click and select run test
+- If you want to run the algorithms tests, go to Algorithms_Tests/ and each of the 2 exercises from the 2 classes, right click and run
 
 
