@@ -7,11 +7,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import UI.common.CommonDefinitions;
-import UI.pages.HomePageBundles;
+import UI.pages.HomeBundlesPage;
 
 public class TestCases extends CommonDefinitions {
 
-    HomePageBundles bundlesPage = new HomePageBundles();
+    HomeBundlesPage bundlesPage = new HomeBundlesPage();
     ResultsPage resultPage = new ResultsPage();
 
     @BeforeClass

@@ -1,12 +1,9 @@
 package UI.pages;
 
 import UI.common.CommonDefinitions;
-import com.gargoylesoftware.htmlunit.svg.SvgFeOffset;
 import org.openqa.selenium.By;
 
-import java.util.concurrent.TimeUnit;
-
-public class HomePageBundles extends CommonDefinitions {
+public class HomeBundlesPage extends CommonDefinitions {
     private final By bundlesButton = By.xpath("//div[@data-bdd='farefinder-option-bundles']");
     private final By carButton = By.xpath("//button[@data-bdd='farefinder-package-bundleoption-car']");
 
