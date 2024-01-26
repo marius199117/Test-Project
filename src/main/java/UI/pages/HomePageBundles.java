@@ -40,5 +40,6 @@ public class HomePageBundles extends CommonDefinitions {
         selectDropdownByValue(departingTime, "Evening");
         selectDropdownByValue(returningTime, "Morning");
         wait10AndClick(findADeal);
+        Thread.sleep(3000);
     }
 }
