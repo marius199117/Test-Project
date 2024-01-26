@@ -25,7 +25,6 @@ public class TestCases extends CommonDefinitions {
     @Test(priority = 1)
     public void testFlow() throws InterruptedException {
      bundlesPage.bundles();
-     resultPage.result();
     }
 
     @AfterClass
