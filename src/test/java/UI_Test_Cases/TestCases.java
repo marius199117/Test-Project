@@ -19,15 +19,15 @@ public class TestCases extends CommonDefinitions {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("http://www.hotwire.com/");
+        driver.manage().deleteAllCookies();
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
     }
 
-    @Test(priority = 1)
+    @Test
     public void testFlow() throws InterruptedException {
      bundlesPage.bundles();
-     // resultPage.result()
-        // -> this would be the assert that at least one result is
-        // displayed if no error message was displayed after selecting Find a deal
+     resultPage.result();
     }
 
     @AfterClass

@@ -40,7 +40,5 @@ public class HomePageBundles extends CommonDefinitions {
         selectDropdownByValue(departingTime, "Evening");
         selectDropdownByValue(returningTime, "Morning");
         wait10AndClick(findADeal);
-        Thread.sleep(3000);
-        // get error message "ERR_HTTP2_PROTOCOL_ERROR" after selecting Find a Deal button
     }
 }
