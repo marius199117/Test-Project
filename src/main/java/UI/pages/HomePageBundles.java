@@ -27,11 +27,11 @@ public class HomePageBundles extends CommonDefinitions {
         wait10AndClick(bundlesButton);
         wait10AndClick(carButton);
         insertKeywoardIntoField(flyFrom, "SFO");
-        i_Press("Enter");
+        iPress("Enter");
         Thread.sleep(2000);
         insertKeywoardIntoField(flyTo, "LAX");
         Thread.sleep(2000);
-        i_Press("Enter");
+        iPress("Enter");
         wait10AndClick(departureDateLocator);
         Thread.sleep(1000);
         wait10AndClick(startDateLocator);
