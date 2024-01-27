@@ -47,15 +47,5 @@ public class CommonDefinitions {
             fail("Key " + keyboardKey + " not handled!");
         }
     }
-
-    public void atLeastOneResult (By xpath) {
-        List<WebElement> elements = driver.findElements(xpath);
-
-        if (!elements.isEmpty()) {
-            System.out.println("At least one element is present with the specified XPath.");
-        } else {
-            System.out.println("No element found with the specified XPath.");
-        }
-    }
 }
 

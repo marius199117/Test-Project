@@ -4,9 +4,9 @@ import UI.common.CommonDefinitions;
 import org.openqa.selenium.By;
 
 public class ResultsPage extends CommonDefinitions {
-    private final By resultElements = By.xpath("//div[@class='uitk-spacing uitk-spacing-margin-blockstart-three']");
+    private final By resultElements = By.xpath("//a[@data-stid='open-hotel-information']");
     public void result() {
-        atLeastOneResult(resultElements);
+        elementIsDisplayed(resultElements);
     }
 
 }
