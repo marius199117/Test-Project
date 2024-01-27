@@ -5,8 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;;git stat
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.junit.Assert.fail;
 
 public class CommonDefinitions {
